@@ -1,0 +1,35 @@
+@-ms-viewport { width: device-width; }
+.hidden { display: none; visibility: hidden; }
+
+.darker-row, .latest-news, .foot-light, .breadcrumb {display: none !important; visibility: hidden !important;}
+
+#header { background-color: #2dd5d6 !important }
+.featured-items { margin-top: 37px !important; }
+.darker-stripe { background: -webkit-radial-gradient(40% 30%,circle farthest-side,#ccc,#ccc),#ccc !important }
+
+.navbar-inner { background: #fff !important; }
+
+.navbar .nav>li>a {
+    color: #000;
+}
+.navbar .nav>li>a:hover {
+    color: #999999;
+}
+.brand>img {
+    width: 90px !important;
+    height: 69px !important;
+}
+.higher-line>a {
+    color: #fff ;
+}
+.higher-line {
+    font-size: 15px ;
+}
+.bamf {
+    font-family: 'Bamf Italic';
+    font-weight: normal;
+}
+.icons>a {
+  float: none;
+  size: 15px;
+}
