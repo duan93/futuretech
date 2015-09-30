@@ -53,6 +53,61 @@ html.no-js
     link(rel='shortcut icon', href='../controller/images/apple-touch/icon.png')
     .master-wrapper
       header#header
+        .darker-row
+          .container
+            .row
+              .span8
+                .topmost-line
+                  .higher-line
+                    a.gray-link(href='my-account.html') My account
+                    | &nbsp; | &nbsp;
+                    a.gray-link(href='my-account.html') Wishlist (2)
+                    | &nbsp; | &nbsp;
+                    a.gray-link(href='checkout-step-1.html') Checkout
+                  | &nbsp;
+                  .lang-currency
+                    .dropdown.js-selectable-dropdown
+                      a.selected(data-toggle='dropdown', href='#')
+                        span.js-change-text
+                          i.famfamfam-flag-gb
+                          |  English (EN)
+                        |  
+                        b.caret
+                      ul.dropdown-menu.js-possibilities(role='menu', aria-labelledby='dLabel')
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-gb
+                            |  English (EN)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-si
+                            |  Slovenian (SI)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-de
+                            |  German (DE)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-fr
+                            |  French (FR)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-es
+                            |  Spanish (ES)
+                    .dropdown.js-selectable-dropdown
+                      a.selected(data-toggle='dropdown', href='#')
+                        span.js-change-text USD ($)
+                        |  
+                        b.caret
+                      ul.dropdown-menu.js-possibilities(role='menu', aria-labelledby='dLabel')
+                        li
+                          a(href='#') USD ($)
+                        li
+                          a(href='#') EUR (&euro;)
+                        li
+                          a(href='#') YEN (&yen;)
+                        li
+                          a(href='#') GBP (&pound;)
         .container
           .row
             .span7
@@ -251,7 +306,7 @@ html.no-js
                 img(src='../controller/images/dummy/slides/2/woman.png', alt='woman', width='361', height='374')
               |  
               .caption.lfl.str(data-x='400', data-y='20', data-speed='10000', data-start='1000', data-easing='linear')
-                img(src='../controller/images/dummy/slides/2/plane.png', alt='aircraft', width='117', height='28')
+                img(src='images/dummy/slides/2/plane.png', alt='aircraft', width='117', height='28')
               |  
               .caption.lfl.big_theme(data-x='120', data-y='120', data-speed='1000', data-start='500', data-easing='easeInOutBack')
                 | Slider Revolution
@@ -261,10 +316,10 @@ html.no-js
                 | AND MANY MORE ...
             |  
             li(data-transition='premium-random', data-slotamount='3')
-              img(src='../controller/images/dummy/slides/3/slide.jpg', alt='slider img', width='1400', height='377')
+              img(src='images/dummy/slides/3/slide.jpg', alt='slider img', width='1400', height='377')
               |  
               .caption.sfr.fadeout(data-x='950', data-y='77', data-speed='1000', data-start='2500', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/3/phone.png', alt='phone in a hand', width='495', height='377')
+                img(src='images/dummy/slides/3/phone.png', alt='phone in a hand', width='495', height='377')
               |  
               .caption.lfl.big_theme(data-x='120', data-y='120', data-speed='1000', data-start='500', data-easing='easeInOutBack')
                 | We Are Mobile Ready
@@ -274,22 +329,22 @@ html.no-js
                 | And also all the icons are retina-ready...
             |  
             li(data-transition='premium-random', data-slotamount='3')
-              img(src='../controller/images/dummy/slides/4/slide.jpg', alt='slider img', width='1400', height='377')
+              img(src='images/dummy/slides/4/slide.jpg', alt='slider img', width='1400', height='377')
               |  
               .caption.lft.ltt(data-x='-150', data-y='0', data-speed='300', data-start='2000', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person1.png', alt='satisfied customer', width='108', height='204')
+                img(src='images/dummy/slides/4/person1.png', alt='satisfied customer', width='108', height='204')
               .caption.lft.ltt(data-x='0', data-y='0', data-speed='300', data-start='2200', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person2.png', alt='satisfied customer', width='108', height='321')
+                img(src='images/dummy/slides/4/person2.png', alt='satisfied customer', width='108', height='321')
               .caption.lft.ltt(data-x='500', data-y='0', data-speed='300', data-start='2400', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person3.png', alt='satisfied customer', width='108', height='139')
+                img(src='images/dummy/slides/4/person3.png', alt='satisfied customer', width='108', height='139')
               .caption.lft.ltt(data-x='720', data-y='0', data-speed='300', data-start='2600', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person4.png', alt='satisfied customer', width='108', height='191')
+                img(src='images/dummy/slides/4/person4.png', alt='satisfied customer', width='108', height='191')
               .caption.lft.ltt(data-x='940', data-y='0', data-speed='300', data-start='2800', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person5.png', alt='satisfied customer', width='108', height='139')
+                img(src='images/dummy/slides/4/person5.png', alt='satisfied customer', width='108', height='139')
               .caption.lft.ltt(data-x='1200', data-y='0', data-speed='300', data-start='3000', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person6.png', alt='satisfied customer', width='108', height='179')
+                img(src='images/dummy/slides/4/person6.png', alt='satisfied customer', width='108', height='179')
               .caption.lft.ltt(data-x='1350', data-y='0', data-speed='300', data-start='3200', data-easing='easeInOutCubic')
-                img(src='../controller/images/dummy/slides/4/person7.png', alt='satisfied customer', width='108', height='133')
+                img(src='images/dummy/slides/4/person7.png', alt='satisfied customer', width='108', height='133')
               |  
               .caption.lfl.big_theme(data-x='120', data-y='140', data-speed='1000', data-start='500', data-easing='easeInOutBack')
                 | Over 1000 Satisfied Customers
@@ -335,7 +390,7 @@ html.no-js
                       .product-img.featured
                         .picture
                           a(href='product.html')
-                            img(src='../controller/images/dummy/featured-products/featured-1.png', alt='', width='518', height='358')
+                            img(src='images/dummy/featured-products/featured-1.png', alt='', width='518', height='358')
                           .img-overlay
                             a.btn.more.btn-primary(href='product.html') More
                             a.btn.buy.btn-danger(href='#') Buy
@@ -353,7 +408,7 @@ html.no-js
                       .product-img.featured
                         .picture
                           a(href='product.html')
-                            img(src='../controller/images/dummy/featured-products/featured-2.png', alt='', width='518', height='358')
+                            img(src='images/dummy/featured-products/featured-2.png', alt='', width='518', height='358')
                           .img-overlay
                             a.btn.more.btn-primary(href='product.html') More
                             a.btn.buy.btn-danger(href='#') Buy
@@ -371,7 +426,7 @@ html.no-js
                       .product-img.featured
                         .picture
                           a(href='product.html')
-                            img(src='../controller/images/dummy/featured-products/featured-3.png', alt='', width='518', height='358')
+                            img(src='images/dummy/featured-products/featured-3.png', alt='', width='518', height='358')
                           .img-overlay
                             a.btn.more.btn-primary(href='product.html') More
                             a.btn.buy.btn-danger(href='#') Buy
@@ -387,7 +442,7 @@ html.no-js
                       .product-img.featured
                         .picture
                           a(href='product.html')
-                            img(src='../controller/images/dummy/featured-products/featured-1.png', alt='', width='518', height='358')
+                            img(src='images/dummy/featured-products/featured-1.png', alt='', width='518', height='358')
                           .img-overlay
                             a.btn.more.btn-primary(href='product.html') More
                             a.btn.buy.btn-danger(href='#') Buy
@@ -405,7 +460,7 @@ html.no-js
                       .product-img.featured
                         .picture
                           a(href='product.html')
-                            img(src='../controller/images/dummy/featured-products/featured-2.png', alt='', width='518', height='358')
+                            img(src='images/dummy/featured-products/featured-2.png', alt='', width='518', height='358')
                           .img-overlay
                             a.btn.more.btn-primary(href='product.html') More
                             a.btn.buy.btn-danger(href='#') Buy
@@ -423,7 +478,7 @@ html.no-js
                       .product-img.featured
                         .picture
                           a(href='product.html')
-                            img(src='../controller/images/dummy/featured-products/featured-3.png', alt='', width='518', height='358')
+                            img(src='images/dummy/featured-products/featured-3.png', alt='', width='518', height='358')
                           .img-overlay
                             a.btn.more.btn-primary(href='product.html') More
                             a.btn.buy.btn-danger(href='#') Buy
@@ -452,7 +507,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-6.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-6.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -482,7 +537,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-7.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-7.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -512,7 +567,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-8.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-8.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -542,7 +597,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-9.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-9.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -573,7 +628,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-10.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-10.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -603,7 +658,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-11.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-11.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -633,7 +688,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-12.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-12.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -663,7 +718,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/products/product-13.jpg', alt='', width='540', height='374')
+                        img(src='images/dummy/products/product-13.jpg', alt='', width='540', height='374')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -703,7 +758,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/most-popular-products/popular-1.jpg', alt='', width='540', height='412')
+                        img(src='images/dummy/most-popular-products/popular-1.jpg', alt='', width='540', height='412')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -733,7 +788,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/most-popular-products/popular-2.jpg', alt='', width='540', height='412')
+                        img(src='images/dummy/most-popular-products/popular-2.jpg', alt='', width='540', height='412')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -763,7 +818,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/most-popular-products/popular-3.jpg', alt='', width='540', height='412')
+                        img(src='images/dummy/most-popular-products/popular-3.jpg', alt='', width='540', height='412')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -793,7 +848,7 @@ html.no-js
                   .product-img
                     .picture
                       a(href='product.html')
-                        img(src='../controller/images/dummy/most-popular-products/popular-4.jpg', alt='', width='540', height='412')
+                        img(src='images/dummy/most-popular-products/popular-4.jpg', alt='', width='540', height='412')
                       .img-overlay
                         a.btn.more.btn-primary(href='product.html') More
                         a.btn.buy.btn-danger(href='#') Add to Cart
@@ -893,17 +948,17 @@ html.no-js
           .span12
             .brands.carouFredSel(data-nav='brands', data-autoplay='true')
               a(href='http://www.proteusthemes.com/')
-                img(src='../controller/images/dummy/brands/brands_01.jpg', alt='', width='203', height='104')
+                img(src='images/dummy/brands/brands_01.jpg', alt='', width='203', height='104')
               a(href='http://www.proteusthemes.com/')
-                img(src='../controller/images/dummy/brands/brands_02.jpg', alt='', width='203', height='104')
+                img(src='images/dummy/brands/brands_02.jpg', alt='', width='203', height='104')
               a(href='http://www.proteusthemes.com/')
-                img(src='../controller/images/dummy/brands/brands_03.jpg', alt='', width='203', height='104')
+                img(src='images/dummy/brands/brands_03.jpg', alt='', width='203', height='104')
               a(href='http://www.proteusthemes.com/')
-                img(src='../controller/images/dummy/brands/brands_04.jpg', alt='', width='203', height='104')
+                img(src='images/dummy/brands/brands_04.jpg', alt='', width='203', height='104')
               a(href='http://www.proteusthemes.com/')
-                img(src='../controller/images/dummy/brands/brands_05.jpg', alt='', width='203', height='104')
+                img(src='images/dummy/brands/brands_05.jpg', alt='', width='203', height='104')
               a(href='http://www.proteusthemes.com/')
-                img(src='../controller/images/dummy/brands/brands_06.jpg', alt='', width='203', height='104')
+                img(src='images/dummy/brands/brands_06.jpg', alt='', width='203', height='104')
       |   
       |  
       |  
@@ -915,7 +970,7 @@ html.no-js
               .span4
                 h2.pacifico
                   | Webmarket &nbsp; 
-                  img.align-baseline(src='../controller/images/webmarket.png', alt='Webmarket Cart')
+                  img.align-baseline(src='images/webmarket.png', alt='Webmarket Cart')
                 p
                   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt vestibulum risus et gravida. Etiam vel augue ligula, blandit malesuada nisi. Quisque a augue nisi. Nullam interdum convallis
               .span4

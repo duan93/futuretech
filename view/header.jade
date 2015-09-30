@@ -1,0 +1,266 @@
+  head
+    meta(charset='utf-8')
+    title Future Tech - Home Page
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='ProteusThemes')
+    |  
+    script(type='text/javascript').
+      WebFontConfig = {
+      google : {
+      families : ['Open+Sans:400,700,400italic,700italic:latin,latin-ext,cyrillic', 'Pacifico::latin']
+      }
+      };
+      (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+      })();
+    |  
+    link(href='../controller/stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='../controller/stylesheets/responsive.css', rel='stylesheet')
+    |  
+    link(rel='stylesheet', href='../controller/js/rs-plugin/css/settings.css', type='text/css')
+    |  
+    link(rel='stylesheet', href='../controller/js/jquery-ui-1.10.3/css/smoothness/jquery-ui-1.10.3.custom.min.css', type='text/css')
+    |  
+    link(rel='stylesheet', href='../controller/js/prettyphoto/css/prettyPhoto.css', type='text/css')
+    |  
+    link(href='../controller/stylesheets/main.css', rel='stylesheet')
+    |  
+    link(href='../controller/stylesheets/stylenew.css', rel='stylesheet')
+    |  
+    script(src='../controller/js/modernizr.custom.56918.js')
+    |  
+    link(rel='apple-touch-icon-precomposed', sizes='144x115', href='../controller/images/apple-touch/icon.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x91', href='../controller/images/apple-touch/icon.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x58', href='../controller/images/apple-touch/icon.png')
+    link(rel='apple-touch-icon-precomposed', href='../controller/images/apple-touch/icon.png')
+    link(rel='shortcut icon', href='../controller/images/apple-touch/icon.png')
+    .master-wrapper
+      header#header
+        .darker-row
+          .container
+            .row
+              .span8
+                .topmost-line
+                  .higher-line
+                    a.gray-link(href='my-account.html') My account
+                    | &nbsp; | &nbsp;
+                    a.gray-link(href='my-account.html') Wishlist (2)
+                    | &nbsp; | &nbsp;
+                    a.gray-link(href='checkout-step-1.html') Checkout
+                  | &nbsp;
+                  .lang-currency
+                    .dropdown.js-selectable-dropdown
+                      a.selected(data-toggle='dropdown', href='#')
+                        span.js-change-text
+                          i.famfamfam-flag-gb
+                          |  English (EN)
+                        |  
+                        b.caret
+                      ul.dropdown-menu.js-possibilities(role='menu', aria-labelledby='dLabel')
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-gb
+                            |  English (EN)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-si
+                            |  Slovenian (SI)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-de
+                            |  German (DE)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-fr
+                            |  French (FR)
+                        li
+                          a(href='#')
+                            i.famfamfam-flag-es
+                            |  Spanish (ES)
+                    .dropdown.js-selectable-dropdown
+                      a.selected(data-toggle='dropdown', href='#')
+                        span.js-change-text USD ($)
+                        |  
+                        b.caret
+                      ul.dropdown-menu.js-possibilities(role='menu', aria-labelledby='dLabel')
+                        li
+                          a(href='#') USD ($)
+                        li
+                          a(href='#') EUR (&euro;)
+                        li
+                          a(href='#') YEN (&yen;)
+                        li
+                          a(href='#') GBP (&pound;)
+        .container
+          .row
+            .span7
+              a.brand(href='index-2.html')
+                img(src='../controller/images/logo.png', alt='Webmarket Logo', width='48', height='48')
+                span.bamf Future Tech
+                span.tagline C&ocirc;ng ngh&#x1EC7; t&#x1B0;&#x1A1;ng lai trong t&#x1EA7;m tay b&#x1EA1;n!
+            |  
+            |  
+            |  
+            .span5
+              .top-right
+                .higher-line
+                  | Kh&aacute;ch h&agrave;ng m&#x1EDB;i! 
+                  br
+                  a(href='#registerModal', role='button', data-toggle='modal') &Dstrok;&abreve;ng k&yacute;
+                  |  //
+                  a(href='#loginModal', role='button', data-toggle='modal') &Dstrok;&abreve;ng nh&#x1EAD;p
+      |  
+      |  
+      |  
+      #stickyNavbar.navbar.navbar-static-top
+        .navbar-inner
+          .container
+            .row
+              .span9
+                button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                |  
+                |  
+                |  
+                .nav-collapse.collapse
+                  ul#mainNavigation.nav
+                    li.active
+                      a(href='index-2.html') C&#x1EED;a h&agrave;ng 
+                    //
+                      <li>
+                      <a href="shop.html">Cửa hàng</a>
+                      </li>
+                    li.dropdown
+                      a.dropdown-toggle(href='shop.html')
+                        | &Dstrok;i&#x1EC7;n tho&#x1EA1;i 
+                        b.caret
+                      ul.dropdown-menu
+                        li
+                          a(href='shop.html') Apple
+                        li
+                          a(href='shop.html') Sony
+                        li
+                          a(href='shop.html') Samsung
+                        li
+                          a(href='shop.html') Blackberry
+                    li.dropdown
+                      a.dropdown-toggle(href='shop.html')
+                        | M&aacute;y t&iacute;nh b&#x1EA3;ng 
+                        b.caret
+                      ul.dropdown-menu
+                        li
+                          a(href='shop.html') Ipad
+                        li
+                          a(href='shop.html') Microsoft
+                        li
+                          a(href='shop.html') Android
+                        li
+                          a(href='shop.html') 404 Page
+                    li.dropdown
+                      a.dropdown-toggle(href='shop.html')
+                        | Laptop 
+                        b.caret
+                      ul.dropdown-menu
+                        li
+                          a(href='shop.html') Macbook
+                        li
+                          a(href='shop.html') Bussines
+                    li.dropdown
+                      a.dropdown-toggle(href='shop.html')
+                        | Ph&#x1EE5; ki&#x1EC7;n 
+                        b.caret
+                      ul.dropdown-menu
+                        li
+                          a(href='shop.html') &Acirc;m thanh
+                        li
+                          a(href='shop.html') S&#x1EA1;c d&#x1EF1; ph&ograve;ng
+                        li
+                          a(href='shop.html') L&#x1B0;u tr&#x1EEF;
+                        li
+                          a(href='shop.html') Apple
+                    li.dropdown
+                      a.dropdown-toggle(href='blog.html')
+                        | Tin t&#x1EE9;c 
+                        b.caret
+                      ul.dropdown-menu
+                        li
+                          a(href='blog.html') C&ocirc;ng ngh&#x1EC7;
+                        li
+                          a(href='blog-single.html') Tuy&#x1EC3;n d&#x1EE5;ng
+                  |  
+                  |  
+                  |  
+                  form.navbar-form.pull-right(action='#', method='get')
+                    button(type='submit')
+                      span.icon-search
+                    input#navSearchInput.span1(type='text', name='search')
+              |  
+              |  
+              |  
+              .span3
+                #cartContainer.cart-container
+                  .cart
+                    p.items
+                      | CART 
+                      span.dark-clr (3)
+                    p.dark-clr.hidden-tablet $1816.90
+                    a.btn.btn-danger(href='checkout-step-1.html')
+                      i.icon-shopping-cart
+                  .open-panel
+                    .item-in-cart.clearfix
+                      .image
+                        img(src='../controller/images/dummy/cart-items/cart-item-1.jpg', width='124', height='124', alt='cart item')
+                      .desc
+                        strong
+                          a(href='product.html') Adipiscing Vel Vel Felis
+                        span.light-clr.qty
+                          | Qty: 1
+                          a.icon-remove-sign(href='#', title='Remove Item')
+                      .price
+                        strong $5914
+                    .item-in-cart.clearfix
+                      .image
+                        img(src='../controller/images/dummy/cart-items/cart-item-2.jpg', width='124', height='124', alt='cart item')
+                      .desc
+                        strong
+                          a(href='product.html') Adipiscing Sed Ac Felis Ut
+                        span.light-clr.qty
+                          | Qty: 1
+                          a.icon-remove-sign(href='#', title='Remove Item')
+                      .price
+                        strong $4644
+                    .item-in-cart.clearfix
+                      .image
+                        img(src='../controller/images/dummy/cart-items/cart-item-3.jpg', width='124', height='124', alt='cart item')
+                      .desc
+                        strong
+                          a(href='product.html') Amet Sed Nisi
+                        span.light-clr.qty
+                          | Qty: 1
+                          a.icon-remove-sign(href='#', title='Remove Item')
+                      .price
+                        strong $5059
+                    .summary
+                      .line
+                        .row-fluid
+                          .span6 Shipping:
+                          .span6.align-right $4.99
+                      .line
+                        .row-fluid
+                          .span6 Subtotal:
+                          .span6.align-right.size-16 $357.81
+                    .proceed
+                      a.btn.btn-danger.pull-right.bold.higher(href='checkout-step-1.html')
+                        | CHECKOUT 
+                        i.icon-shopping-cart
+                      small
+                        | Shipping costs are calculated based on location. 
+                        a(href='#') More information
