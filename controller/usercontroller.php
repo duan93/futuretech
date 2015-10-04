@@ -1,4 +1,6 @@
 <?php
+include '../model/connect.php';
+include '../model/product.php';
 session_start();
 
 if(isset($_POST["action"]))
