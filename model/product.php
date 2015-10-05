@@ -15,7 +15,7 @@ class product{
 	}
 	public function getproductbyid(){
 		$db = new connect();
-		$strquery = "";
+		$strquery = "select";
 		$r = $db->getproductbyid($strquery);
 		return $r;
 	}

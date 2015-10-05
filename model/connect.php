@@ -23,6 +23,7 @@ class connect {
         $result = $this -> db -> exec($query);
         return $result;
     }
+    
 
-} 
+}
 ?>
