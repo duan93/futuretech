@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-header("Location:controller/usercontroller.php");
+header("Location:view/home.php");
 ?>
 </body>
 </html>
