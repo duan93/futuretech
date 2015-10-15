@@ -1,6 +1,6 @@
 <?php
 
-class Product {
+class product {
     var $ProductID = null;
     var $ProductName = null;
     var $ProductImage ="images/";
