@@ -44,7 +44,7 @@ $result = $dssp->getList();
               <div data-x="120" data-y="210" data-speed="1000" data-start="700" data-easing="easeInOutBack" class="caption lfl small_theme">Take a look at our profile page on the <a href="http://themeforest.net/user/ProteusThemes" target="_blank">ThemeForest</a>!</div><a href="http://support.proteusthemes.com/" data-x="120" data-y="280" data-speed="1000" data-start="900" data-easing="easeInOutBack" class="caption lfl btn btn-primary btn_theme">We provide support</a>
             </li>
           </ul>
-          <div class="tp-bannertimer"></div>
+          
         </div> 
          
          
@@ -111,46 +111,10 @@ $result = $dssp->getList();
  
  
 <div class="row popup-products">
-<div id="isotopeContainer" class="isotope-container">
+<div id="isotopeContainer" class="isotope-container"> 
+
  
- 
- 
-<div class="span3 isotope--target filter--accessories" data-price="1250" data-popularity="4" data-size="xs|l|xl" data-color="orange" data-brand="adidas">
-<div class="product">
-<div class="product-inner">
-<div class="product-img">
-<div class="picture">
-<a href="product.html"><img width="540" height="374" alt="" src="images/dummy/products/product-25.jpg"/></a>
-<div class="img-overlay">
-<a class="btn more btn-primary" href="product.html">More</a>
-<a class="btn buy btn-danger" href="#">Add to Cart</a>
-</div>
-</div>
-</div>
-<div class="main-titles no-margin">
-<h4 class="title">$1250</h4>
-<h5 class="no-margin isotope--title">Lorem Adipiscing Elit Vulputate</h5>
-</div>
-<div class="row-fluid hidden-line">
-<div class="span6">
-<a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
-<a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
-</div>
-<div class="span6 align-right">
-<span class="icon-star stars-clr"></span>
-<span class="icon-star stars-clr"></span>
-<span class="icon-star stars-clr"></span>
-<span class="icon-star stars-clr"></span>
-<span class="icon-star"></span>
-</div>
-</div>
-</div>
-</div>
-</div>  
-  
- 
- 
-<?php while ($set = $result->fetch()) { ?>
+<?php while ($set = $result->fetch()):  ?>
 <div class="span3 isotope--target filter--accessories" data-price="75" data-popularity="2" data-size="xs|l|xl|xxl" data-color="orange" data-brand="nike">
 <div class="product">
 <div class="product-inner">
@@ -184,7 +148,7 @@ $result = $dssp->getList();
 </div>
 </div>
 </div>  
-<?php } ?> 
+<?php endwhile; ?> 
 
 
 
