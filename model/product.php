@@ -7,12 +7,20 @@ class product {
     var $ProductPrice =null;
     var $ProductDesc =null;
     
-    public function __construct() { }
+    public function __construct() { 
+        if(func_num_args()==5){
+            $this -> ProductID =  func_get_arg(0);
+            $this -> ProductName = func_get_arg(1);
+            $this -> ProductImage = func_get_arg(2);
+            $this -> ProductPrice = func_get_arg(3);
+            $this -> ProductDesc = func_get_arg(4);
+        }
+    }
     // Lấy danh sách sản phẩm từ database
      function getList()
     {
          $db = new connect();
-         $select = "select * from futuretech";
+         $select = "select * from products";
          $result = $db->getList($select);
          return $result;
      }

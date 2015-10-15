@@ -81,16 +81,16 @@ $result = $dssp->getList();
 <div class="stamp red">Sold</div>
 <div class="product-img">
 <div class="picture">
-<a href="product.html"><img width="540" height="374" alt="" src="images/dummy/products/<?php echo $set['hinh_sanpham']; ?>"/></a>
+<a href="product.html"><img width="540" height="374" alt="" src="images/dummy/products/<?php echo $set['ProductImage']; ?>"/></a>
 <div class="img-overlay">
-<a class="btn more btn-primary" href="?action=sanpham_chitiet&ma_sanpham=<?php echo $set['ma_sanpham']; ?>">More</a>
+<a class="btn more btn-primary" href="?action=sanpham_chitiet&ProductID=<?php echo $set['ProductID']; ?>">More</a>
 <a class="btn buy btn-danger" href="#">Add to Cart</a>
 </div>
 </div>
 </div>
 <div class="main-titles no-margin">
-<h4 class="title">$<?php echo $set['gia_sanpham']; ?></h4>
-<h5 class="no-margin isotope--title"><?php echo $set['ten_sanpham']; ?></h5>
+<h4 class="title"><?php echo $set['ProductPrice']; ?>đ</h4>
+<h5 class="no-margin isotope--title"><?php echo $set['ProductName']; ?></h5>
 </div>
 <div class="row-fluid hidden-line">
 <div class="span6">
