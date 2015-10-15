@@ -55,7 +55,7 @@
  
  
 <div class="span7">
-<a class="brand" href="index-2.html">
+<a class="brand" href="?action=home">
 <img src="images/logo.png" alt="Webmarket Logo" width="48" height="48"/>
 <span class="bamf">Future Tech</span>
 <span class="tagline">Công nghệ tương lai trong tầm tay bạn!</span>
@@ -96,7 +96,7 @@ Khách hàng mới! <br>
 <div class="nav-collapse collapse">
 <ul class="nav" id="mainNavigation">
 <li class="active">
-<a href="index-2.html">Cửa hàng </a>
+<a href="?action=product-list">Cửa hàng </a>
 </li>
 <!--
 <li>
@@ -104,7 +104,7 @@ Khách hàng mới! <br>
 </li>
 -->
 <li class="dropdown">
-<a href="shop.html" class="dropdown-toggle">Điện thoại <b class="caret"></b> </a>
+<a href="?action=product-list" class="dropdown-toggle">Điện thoại <b class="caret"></b> </a>
 <ul class="dropdown-menu">
 <li><a href="shop.html">Apple</a></li>
 <li><a href="shop.html">Sony</a></li>

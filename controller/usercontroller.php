@@ -30,6 +30,9 @@ else
 
 switch ($action) {
     case "home":
+        include '../view/home.php';
+        break;
+    case "product-list":
         include '../view/sanpham.php';
         break;
     case "acc_login_form":

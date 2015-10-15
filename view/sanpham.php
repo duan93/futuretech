@@ -90,7 +90,7 @@ $result = $dssp->getList();
 </div>
 <div class="main-titles no-margin">
 <h4 class="title"><?php echo $set['ProductPrice']; ?>đ</h4>
-<h5 class="no-margin isotope--title"><?php echo $set['ProductName']; ?></h5>
+<h5 class="no-margin isotope--title"><?php echo $set['ProductBrand']; ?> <?php echo $set['ProductName']; ?></h5>
 </div>
 <div class="row-fluid hidden-line">
 <div class="span6">
