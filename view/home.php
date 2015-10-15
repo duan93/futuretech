@@ -1,14 +1,12 @@
-<!DOCTYPE //if lt IE 8>
-<html class="no-js lt-ie10 lt-ie9 lt-ie8"> </html>
-<!--if IE 8-->
-<html class="no-js lt-ie10 lt-ie9"> </html>
-<!--if IE 9html.no-js.lt-ie10  
--->
-<!-- [if gt IE 8] <!--> 
-<html class="no-js">
-  <!-- <![endif]-->
-  <!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:42:43 GMT-->
-  <?php include 'header.php' ?>
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/shop-no-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:43:09 GMT -->
+  
+ <?php include 'header.php' ?>
        
        
        
