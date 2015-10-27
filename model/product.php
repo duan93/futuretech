@@ -1,13 +1,23 @@
 <?php
-
 class product {
     var $ProductID = null;
     var $ProductName = null;
     var $ProductImage ="images/";
     var $ProductPrice =null;
     var $ProductDesc =null;
-    
+
     public function __construct() { }
+
+    //tn
+  
+    //Lấy danh mục sản phẩm
+    function getProductType()
+    {
+        $db = new connect();
+        $select = "select * from producttype";
+        $result = $db->getList($select);
+        return $result;
+    }
     // Lấy danh sách sản phẩm từ database
      function getList()
     {
@@ -16,7 +26,7 @@ class product {
          $result = $db->getList($select);
          return $result;
      }
-     
+
      function getList_DESC()
     {
          $db = new connect();
@@ -24,7 +34,7 @@ class product {
          $result = $db->getList($select);
          return $result;
      }
-     
+
      // Lấy danh sách sản phẩm có liệt kê theo trang
      function getListPage($from,$to)
      {
@@ -33,7 +43,7 @@ class product {
          $result = $db->getList($select);
          return $result;
      }
-     
+
      function getListPageOrderProduct($from,$to,$category)
      {
          $db = new connect();
@@ -46,17 +56,17 @@ class product {
         $db = new connect();
         $select = "select Count(*) from products WHERE ProductCategory='$productname'";
         $result = $db->getInstance($select);
-        return $result; 
+        return $result;
     }
-    
+
      function CountProductAll()
     {
         $db = new connect();
         $select = "select Count(*) from products";
         $result = $db->getInstance($select);
-        return $result; 
+        return $result;
     }
-     
+
      // Lấy thông tin chi tiết sản phẩm theo ID
      function getProductById($id)
      {

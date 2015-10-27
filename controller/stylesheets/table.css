@@ -1,0 +1,65 @@
+/* 
+    Document   : table
+    Created on : Jan 28, 2015, 10:22:28 AM
+    Author     : Sony
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.link{
+    width: 1200px;
+    margin:20px auto 20px auto; 
+}
+.link a{
+    text-align: center;
+    margin-right: 10px;
+    width:80px;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: #555;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+.list{
+    margin: auto
+}
+.list h2{
+    font-size: 30px;
+    margin-bottom: 20px
+}
+.list tr{
+    text-align: center;
+    border: 1px solid #ccc;
+    line-height: 28px;
+}
+.list tr td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    letter-spacing: 1px
+}
+.register_account form input[type="password"],     .register_account form input[type="file"]{
+	font-size:0.95em;
+	color:#777;
+	padding: 8px;
+	outline: none;
+	margin:10px 0;
+	width:91%;
+	font-family: 'Exo 2', sans-serif;
+	border:none;
+	box-shadow:0 0 2px #aaa;
+	-webkit-box-shadow:0 0 2px #aaa;
+	-moz-box-shadow:0 0 2px #aaa;
+	-o-box-shadow:0 0 2px #aaa;
+}
+.register_account form input[type="password"]:hover,    .register_account form input[type="file"]:hover{
+	box-shadow:0 0 4px #aaa;
+	-webkit-box-shadow:0 0 4px #aaa;
+	-moz-box-shadow:0 0 4px #aaa;
+	-o-box-shadow:0 0 4px #aaa;
+}

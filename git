@@ -1,0 +1,257 @@
+[33mcommit f3b368236742dfd55316829aea6c724928c61976[m
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Thu Oct 15 15:18:49 2015 +0700
+
+    fds
+
+[33mcommit af4a26f2814da436e07f92d96760055c43ba0a6c[m
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Thu Oct 15 14:40:47 2015 +0700
+
+    fix fetch
+    
+    done
+
+[33mcommit f8ef1a4452ebe3e990252816a363f3f60b5f036b[m
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Thu Oct 15 14:29:36 2015 +0700
+
+    âs
+    
+    âs
+
+[33mcommit 0042fce90aa57ecaef694098941d9c7d250193f2[m
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Thu Oct 15 14:06:52 2015 +0700
+
+    sá
+    
+    ấ
+
+[33mcommit d66e5bbabc6b17a1dbf24a785d8d890aed747926[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Thu Oct 15 13:33:44 2015 +0700
+
+    change file
+
+[33mcommit 601b341dde473c3913ac8458f1011efaaabbf5fe[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Tue Oct 13 08:58:58 2015 +0700
+
+    change db
+
+[33mcommit 25e77f41396f539147e0a1c5646deb8c0623fff7[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Sat Oct 10 17:33:28 2015 +0700
+
+    add login
+    
+    thêm chức năng login
+
+[33mcommit 284390228c8fef6f96baa526c52e0a0b63d1e1f6[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Thu Oct 8 17:03:44 2015 +0700
+
+    add file
+
+[33mcommit 52740c87cf9d77db04e0c0b9982875e4cc275a53[m
+Author: vangnguyen <nguyenvanvangct@gmail.com>
+Date:   Wed Oct 7 13:17:20 2015 +0700
+
+    js
+
+[33mcommit 3b585c63dbc58faf0b9d1bbe0571dea6e85af068[m
+Author: NguyenNhatHanh <nguyennhathanhit@gmail.com>
+Date:   Tue Oct 6 08:12:35 2015 +0700
+
+    add font
+
+[33mcommit 73f5945c1fd43ce7bae4e5369a7fc3831b66788a[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Mon Oct 5 23:09:06 2015 +0700
+
+    sf8
+
+[33mcommit 1ad6d8da77345d3f6ddc1ca5ec31d3418898e280[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Sun Oct 4 18:47:36 2015 +0700
+
+    CHANGE MODEL
+
+[33mcommit b8acc0fb05e4d0845db09807ddc594c7e8fa1085[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Sun Oct 4 17:55:27 2015 +0700
+
+    change database
+
+[33mcommit 23f6a7ea47f752a89be61ec1df2299fb5afaadc4[m
+Author: Nguyễn Trần Công Thắng <ntcongthang@gmail.com>
+Date:   Sat Oct 3 16:35:27 2015 +0700
+
+    change user controller
+
+[33mcommit 1c053c4de5bf4c6d49e62c533eb43d5db9a9168a[m
+Author: vangnguyen <nguyenvanvangct@gmail.com>
+Date:   Thu Oct 1 13:53:24 2015 +0700
+
+    Thay doi URL
+    
+    Thay đổi URL các trang contact.html, features.html, shop-search.html
+
+[33mcommit 4a7542171597872f62421264fe164765519d5121[m
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Wed Sep 30 22:10:06 2015 +0700
+
+    tạo header, footer
+    
+    dsd
+
+[33mcommit fa50094b414c7cb014db75dea49d32c984632f4b[m
+Author: cong thang <ntcongthang@gmail.com>
+Date:   Wed Sep 30 20:57:25 2015 +0700
+
+    thêm header footer
+
+[33mcommit 36a273994b71f6d2652486c8e4858d465599e5af[m
+Author: cong thang <ntcongthang@gmail.com>
+Date:   Wed Sep 30 19:51:53 2015 +0700
+
+    thay đổi trang blog
+
+[33mcommit 2227e2e1bfbf89baca657890f8dc9c48f0c1320c[m
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Tue Sep 29 18:49:50 2015 +0700
+
+    THAY ĐƯỜNG DẪN
+    
+    #DMCS
+
+[33mcommit 29f842bd5660a493eaa44330003ddbb287e41ab9[m
+Merge: 89e5d0e 99e4b5e
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Tue Sep 29 18:09:20 2015 +0700
+
+    Merge branch 'master' of https://github.com/duan93/futuretech
+
+[33mcommit 89e5d0ee84ddbe7de0e9157d310e51b66ba6c31e[m
+Merge: 7ab5f3a 232c584
+Author: manhcuongvu <manhcuongvu@hotmail.com>
+Date:   Tue Sep 29 18:09:16 2015 +0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+    	404.html
+    	404.jade
+    	about-us.html
+    	about-us.jade
+    	assets/fontawesome/font/fontawesome-webfont.svg
+    	assets/fontawesome/font/fontawesome-webfontd41d.eot
+    	assets/fontawesome/font/fontawesome-webfontf77b.eot
+    	assets/fontawesome/font/fontawesome-webfontf77b.ttf
+    	assets/fontawesome/font/fontawesome-webfontf77b.woff
+    	assets/zocial/css/zocial-regular-webfont.eot
+    	assets/zocial/css/zocial-regular-webfont.svg
+    	assets/zocial/css/zocial-regular-webfont.ttf
+    	assets/zocial/css/zocial-regular-webfont.woff
+    	assets/zocial/css/zocial-regular-webfontd41d.eot
+    	blog-search.html
+    	blog-search.jade
+    	blog-single.html
+    	blog-single.jade
+    	blog.html
+    	blog.jade
+    	checkout-step-1.html
+    	checkout-step-1.jade
+    	checkout-step-2.html
+    	checkout-step-2.jade
+    	checkout-step-3.html
+    	checkout-step-3.jade
+    	checkout-step-4.html
+    	checkout-step-4.jade
+    	contact.html
+    	contact.jade
+    	features.html
+    	features.jade
+    	images/404.png
+    	images/apple-touch/icon.png
+    	images/backgrounds/pattern-108662.gif
+    	images/backgrounds/pattern-118662.gif
+    	images/backgrounds/pattern-128662.gif
+    	images/backgrounds/pattern-18662.gif
+    	images/backgrounds/pattern-28662.gif
+    	images/backgrounds/pattern-38662.gif
+    	images/backgrounds/pattern-48662.gif
+    	images/backgrounds/pattern-58662.gif
+    	images/backgrounds/pattern-68662.gif
+    	images/backgrounds/pattern-78662.gif
+    	images/backgrounds/pattern-88662.gif
+    	images/backgrounds/pattern-98662.gif
+    	images/box-bg2ba4.jpg
+    	images/buttons/paypal.gif
+    	images/buttons/security.jpg
+    	images/dummy/about-us/profile-1.jpg
+    	images/dummy/about-us/profile-2.jpg
+    	images/dummy/about-us/profile-3.jpg
+    	images/dummy/about-us/profile-4.jpg
+    	images/dummy/avatars/avatar-1.jpg
+    	images/dummy/avatars/avatar-2.jpg
+    	images/dummy/avatars/avatar-4.jpg
+    	images/dummy/blog-posts/post-1.jpg
+    	images/dummy/brands/brands_01.jpg
+    	images/dummy/brands/brands_02.jpg
+    	images/dummy/brands/brands_03.jpg
+    	images/dummy/brands/brands_04.jpg
+    	images/dummy/brands/brands_05.jpg
+    	images/dummy/brands/brands_06.jpg
+    	images/dummy/cart-items/cart-item-1.jpg
+    	images/dummy/cart-items/cart-item-2.jpg
+    	images/dummy/cart-items/cart-item-3.jpg
+    	images/dummy/cart-items/cart-item-4.jpg
+    	images/dummy/cart-items/cart-item-5.jpg
+    	images/dummy/featured-products/featured-1.png
+    	images/dummy/featured-products/featured-2.png
+    	images/dummy/featured-products/featured-3.png
+    	images/dummy/gallery/gallery.png
+    	images/dummy/menu/woman.jpg
+    	images/dummy/most-popular-products/popular-1.jpg
+    	images/dummy/most-popular-products/popular-2.jpg
+    	images/dummy/most-popular-products/popular-3.jpg
+    	images/dummy/most-popular-products/popular-4.jpg
+    	images/dummy/products/product-1.jpg
+    	images/dummy/products/product-10.jpg
+    	images/dummy/products/product-11.jpg
+    	images/dummy/products/product-12.jpg
+    	images/dummy/products/product-13.jpg
+    	images/dummy/products/product-14.jpg
+    	images/dummy/products/product-15.jpg
+    	images/dummy/products/product-16.jpg
+    	images/dummy/products/product-17.jpg
+    	images/dummy/products/product-18.jpg
+    	images/dummy/products/product-19.jpg
+    	images/dummy/products/product-2.jpg
+    	images/dummy/products/product-20.jpg
+    	images/dummy/products/product-21.jpg
+    	images/dummy/products/product-22.jpg
+    	images/dummy/products/product-23.jpg
+    	images/dummy/products/product-24.jpg
+    	images/dummy/products/product-25.jpg
+    	images/dummy/products/product-26.jpg
+    	images/dummy/products/product-27.jpg
+    	images/dummy/products/product-28.jpg
+    	images/dummy/products/product-29.jpg
+    	images/dummy/products/product-3.jpg
+    	images/dummy/products/product-30.jpg
+    	images/dummy/products/product-31.jpg
+    	images/dummy/products/product-32.jpg
+    	images/dummy/products/product-33.jpg
+    	images/dummy/products/product-34.jpg
+    	images/dummy/products/product-35.jpg
+    	images/dummy/products/product-4.jpg
+    	images/dummy/products/product-5.jpg
+    	images/dummy/products/product-6.jpg
+    	images/dummy/products/product-7.jpg
+    	images/dummy/products/product-8.jpg
+    	images/dummy/products/product-9.jpg
+    	images/dummy/products/shirt-1.jpg
+    	images/dummy/produc

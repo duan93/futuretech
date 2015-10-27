@@ -24,5 +24,5 @@ class connect {
         return $result;
     }
 
-} 
+}
 ?>
