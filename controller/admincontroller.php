@@ -26,10 +26,10 @@ switch ($action) {
         }
         break;
     case "list_pro":
-        include '../view/pages/admin/list-pro.php';
+        include '../view/pages/admin/pro-list.php';
         break;
     case "list_acc":
-        include '../view/list_acc.php';
+        include '../view/pages/admin/acc-list.php';
         break;
     case "add_pro_form":
         include '../view/insert_pro.php';
