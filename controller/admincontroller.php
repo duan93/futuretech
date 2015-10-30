@@ -32,7 +32,7 @@ switch ($action) {
         include '../view/pages/admin/acc-list.php';
         break;
     case "add_pro_form":
-        include '../view/insert_pro.php';
+        include '../view/pages/admin/pro-add.php';
         break;
     case "update_pro_form":
         include '../view/update_pro.php';
