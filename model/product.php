@@ -96,6 +96,7 @@ class product {
             $query = "delete from products where ProductID = '$id'";
             $db->exec($query);
          }
+
 }
 
 ?>

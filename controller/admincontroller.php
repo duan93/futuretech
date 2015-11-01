@@ -1,4 +1,4 @@
-<?php
+q<?php
 
 session_start();
 
@@ -26,10 +26,10 @@ switch ($action) {
         }
         break;
     case "list_pro":
-        include '../view/pages/admin/pro-list.php';
+        include '../view/pages/admin/list-pro.php';
         break;
     case "list_acc":
-        include '../view/pages/admin/acc-list.php';
+        include '../view/list_acc.php';
         break;
     case "add_pro_form":
         include '../view/pages/admin/pro-add.php';

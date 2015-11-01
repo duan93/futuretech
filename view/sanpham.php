@@ -7,7 +7,7 @@
 
 <!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/shop-no-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2015 15:43:09 GMT -->
 
-<?php 
+<?php
   include '../view/lock/header.php';
   include '../view/lock/menus.php';
  ?>
@@ -82,7 +82,7 @@ while ($set = $result -> fetch()): ?>
 <div class="span3 isotope--target filter--accessories" data-price="75" data-popularity="2" data-size="xs|l|xl|xxl" data-color="orange" data-brand="nike">
 <div class="product">
 <div class="product-inner">
-<div class="stamp red">Sold</div>
+
 <div class="product-img">
 <div class="picture">
 <a href="product.html"><img width="540" height="374" alt="" src="images/dummy/products/<?php echo $set['ProductImage']; ?>"/></a>
