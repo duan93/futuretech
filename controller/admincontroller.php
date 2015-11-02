@@ -1,9 +1,10 @@
-q<?php
+<?php
 
 session_start();
 
 include '../model/connect.php';
 include '../model/product.php';
+include "../model/cart.php";
 //include '../model/customer.php';
 //include '../model/admin.php';
 

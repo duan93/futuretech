@@ -4,6 +4,7 @@ session_start();
 
 include '../model/connect.php';
 include '../model/product.php';
+include "../model/cart.php";
 /*
 include '../model/customer.php';
 include '../model/fields.php';
@@ -21,6 +22,11 @@ $fields->addField('address', 'fghjkfghj.');
 $fields->addField('city', 'mnbvcxz');
 $fields->addField('phone', 'Use 999.999.9999 format.');
 */
+
+if (!isset($_SESSION['cartview']))
+    $_SESSION['cartview'] = array();
+
+
 if (isset($_POST["action"]))
     $action = $_POST["action"];
 elseif (isset($_GET["action"]))
